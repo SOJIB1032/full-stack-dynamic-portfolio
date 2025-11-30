@@ -76,27 +76,27 @@ TailwindCSS / Bootstrap	UI styling
 Laravel Breeze (optional)	Authentication
 📁 Folder Structure (Simplified)
 myportfolio/
-│── app/
-│   ├── Http/Controllers/
-│   ├── Models/
-│── database/
-│   ├── migrations/
-│── public/
-│   ├── images/
-│── resources/
-│   ├── views/
-│       ├── home.blade.php
-│       ├── about.blade.php
-│       ├── skills.blade.php
-│       ├── education.blade.php
-│       ├── projects.blade.php
-│       ├── contact.blade.php
-│       ├── admin/
-│           ├── dashboard.blade.php
-│           ├── projects/
-│               ├── create.blade.php
-│               ├── edit.blade.php
-│── routes/
-│   ├── web.php
-│── .env
-│── README.md
+│── app/  
+│   ├── Http/Controllers/  
+│   ├── Models/  
+│── database/  
+│   ├── migrations/  
+│── public/  
+│   ├── images/     
+│── resources/  
+│   ├── views/  
+│       ├── home.blade.php  
+│       ├── about.blade.php  
+│       ├── skills.blade.php  
+│       ├── education.blade.php  
+│       ├── projects.blade.php  
+│       ├── contact.blade.php  
+│       ├── admin/  
+│           ├── dashboard.blade.php  
+│           ├── projects/  
+│               ├── create.blade.php    
+│               ├── edit.blade.php  
+│── routes/  
+│   ├── web.php  
+│── .env  
+│── README.md  
