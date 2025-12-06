@@ -32,7 +32,9 @@
 
   <div class="flex justify-center md:justify-end">
     <div class="w-72 h-72 rounded-3xl bg-gradient-to-br from-indigo-50 to-pink-50 flex items-center justify-center shadow-2xl">
-      <img src="{{ asset('https://img.freepik.com/free-photo/close-up-portrait-handsome-smiling-young-man-white-t-shirt-blurry-outdoor-nature_176420-6305.jpg?semt=ais_hybrid&w=740&q=80') }}" alt="photo" class="w-64 h-64 object-cover rounded-2xl border-4 border-white shadow" />
+      <img src="{{ asset('images/sojib.png') }}" 
+     class="w-64 h-64 object-cover rounded-2xl border-4 border-white shadow" />
+
     </div>
   </div>
 </section>

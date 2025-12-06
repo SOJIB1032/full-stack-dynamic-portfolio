@@ -3,15 +3,17 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 class AdminAuth
 {
-    public function handle(Request $request, Closure $next)
+    public function handle($request, Closure $next)
     {
-        if (!$request->session()->get('is_admin')) {
-            return redirect()->route('admin.login');
+        // যদি অ্যাডমিন লগইন না করে থাকে
+        if (!Session::get('is_admin')) {
+            return redirect('/admin/login')->with('error', 'Please login first.');
         }
+
         return $next($request);
     }
 }
