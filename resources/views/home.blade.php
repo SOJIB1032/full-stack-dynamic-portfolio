@@ -6,7 +6,7 @@
 <section class="grid md:grid-cols-2 gap-6 items-center">
   <div>
     <div class="text-slate-500">Hi, I'm</div>
-    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Sojib Hasan — <span class="text-indigo-600">Data & Web</span></h1>
+    <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Sojib Hasan — <span class="text-indigo-600">data science & Web Developers</span></h1>
     <p class="mt-4 text-slate-600 max-w-xl">A Computer Science student building clean, accessible web apps and machine learning experiments. I love rural-themed poetry and efficient code.</p>
 
     <div class="mt-6 flex gap-3">
@@ -21,7 +21,7 @@
       </div>
       <div class="bg-white p-3 rounded-2xl shadow-sm">
         <div class="text-xs text-slate-400">Skills</div>
-        <div class="font-semibold">Python · Laravel</div>
+        <div class="font-semibold">Python . java Springboot · Laravel</div>
       </div>
       <div class="bg-white p-3 rounded-2xl shadow-sm">
         <div class="text-xs text-slate-400">Projects</div>

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>{{ config('app.name', 'My Portfolio') }}</title>
+  <title>MD Sojib Hasan - Portfolio</title>
 
   <!-- Tailwind CDN quick start -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -25,9 +25,9 @@
   <header class="bg-white shadow-sm sticky top-0 z-50">
     <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
       <a href="{{ route('home') }}" class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">SJ</div>
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-indigo-500 to-pink-500 flex items-center justify-center text-white font-bold">SH</div>
         <div>
-          <div class="font-semibold">{{ config('app.name') }}</div>
+          <div class="font-semibold">MD sojib hasan </div>
           <div class="text-xs text-slate-500">Software & Data | Portfolio</div>
         </div>
       </a>
