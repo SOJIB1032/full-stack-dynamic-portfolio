@@ -68,7 +68,7 @@
     <a href="{{ route('projects.show', $p->slug) }}" class="bg-white p-4 rounded-2xl shadow-sm card-hover transform transition duration-200">
       <div class="h-40 w-full rounded-xl overflow-hidden bg-slate-100 flex items-center justify-center">
         @if($p->thumbnail)
-          <img src="{{ $p->thumbnail }}" class="w-full h-full object-cover" alt="{{ $p->title }}">
+          <img src="{{ asset($p->thumbnail) }}" class="w-full h-full object-cover" alt="{{ $p->title }}">
         @else
           <div class="text-slate-400">{{ $p->title }}</div>
         @endif

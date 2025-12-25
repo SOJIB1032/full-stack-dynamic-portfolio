@@ -21,8 +21,9 @@ class AuthController extends Controller
             'password'=>'required'
         ]);
 
-        $username = env('ADMIN_USERNAME');
-        $password = env('ADMIN_PASSWORD');
+        // Read admin credentials from env with sensible defaults
+        $username = env('ADMIN_USERNAME', 'ADMIN');
+        $password = env('ADMIN_PASSWORD', '123456');
 
         if ($request->username === $username && $request->password === $password) {
             $request->session()->put('is_admin', true);
